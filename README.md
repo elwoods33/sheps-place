@@ -1,0 +1,1 @@
+This is my first website project on The Odin Project using HTML, CSS, and a focus on Flexbox. I am creating a website for a senior dog rescue called Shep's Place. Pages will include adoptable dogs, contact form, and more. 
