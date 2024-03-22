@@ -49,7 +49,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 30%;
+    max-width: 40%;
     min-width: 200px;
     flex: 1;  
     margin: 0 10px 0 20px;
@@ -85,8 +85,10 @@ h2 {
 
 .dog-pics {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -105,7 +107,11 @@ h2 {
     color: white;
     background-color: #094562;
     display: flex;
-    padding: 20px
+    padding: 20px;
+    font-size: 22px;
+    line-height: 1.25;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .story img {
@@ -116,15 +122,25 @@ h2 {
 .newsletter {
     font-weight: bold;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+}
+
+.background {
+    background-color: #0DAFBC;
+    margin: 20px;
+    padding: 15px 25px;
+    max-width: fit-content;
 }
 
 input {
     padding: 2px;
+    margin: 0 20px;
+}
+
+.submit {
+    font-weight: 700;
 }
 
 .footer {
